@@ -1,4 +1,4 @@
-export time_estimates =
+export default time_estimates =
   estimate_attack_times: (guesses) ->
     crack_times_seconds =
       online_throttling_100_per_hour: guesses / (100 / 3600)

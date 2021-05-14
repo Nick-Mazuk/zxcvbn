@@ -1,6 +1,6 @@
-import {scoring} from './scoring'
+import scoring from './scoring'
 
-export feedback =
+export default feedback =
   default_feedback:
     warning: ''
     suggestions: [

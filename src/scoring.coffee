@@ -14,7 +14,7 @@ MIN_GUESSES_BEFORE_GROWING_SEQUENCE = 10000
 MIN_SUBMATCH_GUESSES_SINGLE_CHAR = 10
 MIN_SUBMATCH_GUESSES_MULTI_CHAR = 50
 
-export scoring =
+export default scoring =
   nCk: (n, k) ->
     # http://blog.plover.com/math/choose.html
     return 0 if k > n

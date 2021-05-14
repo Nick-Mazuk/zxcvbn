@@ -1,7 +1,7 @@
-import {matching} from './matching'
-import {scoring} from './scoring'
-import {time_estimates} from './time_estimates'
-import {feedback} from './feedback'
+import matching from './matching'
+import scoring from './scoring'
+import time_estimates from './time_estimates'
+import feedback from './feedback'
 
 time = -> (new Date()).getTime()
 

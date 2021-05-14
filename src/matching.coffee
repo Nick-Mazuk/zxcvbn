@@ -1,6 +1,6 @@
-import {frequency_lists} from './frequency_lists'
-import {adjacency_graphs} from './adjacency_graphs'
-import {scoring} from './scoring'
+import frequency_lists from './frequency_lists'
+import adjacency_graphs from './adjacency_graphs'
+import scoring from './scoring'
 
 build_ranked_dict = (ordered_list) ->
   result = {}
@@ -64,7 +64,7 @@ DATE_SPLITS =
     [4, 6] # 1991 11 11
     ]
 
-export matching =
+export default matching =
   empty: (obj) -> (k for k of obj).length == 0
   extend: (lst, lst2) -> lst.push.apply lst, lst2
   translate: (string, chr_map) -> (chr_map[chr] or chr for chr in string.split('')).join('')

@@ -6,6 +6,7 @@
   "license": "MIT",
   "main": "lib/main.js",
   "repository": "Nick-Mazuk/zxcvbn",
+  "type": "module",
   "scripts": {
     "test": "coffeetape test/*.coffee | faucet",
     "test-saucelabs": "zuul -- test/*.coffee",
