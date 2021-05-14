@@ -1,6 +1,6 @@
-import frequency_lists from './frequency_lists'
-import adjacency_graphs from './adjacency_graphs'
-import scoring from './scoring'
+import {frequency_lists} from './frequency_lists'
+import {adjacency_graphs} from './adjacency_graphs'
+import {scoring} from './scoring'
 
 build_ranked_dict = (ordered_list) ->
   result = {}

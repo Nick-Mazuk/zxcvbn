@@ -1,4 +1,4 @@
-import scoring from './scoring'
+import {scoring} from './scoring'
 
 export feedback =
   default_feedback:

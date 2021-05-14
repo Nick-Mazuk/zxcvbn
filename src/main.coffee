@@ -1,11 +1,11 @@
-import matching from './matching'
-import scoring from './scoring'
-import time_estimates from './time_estimates'
-import feedback from './feedback'
+import {matching} from './matching'
+import {scoring} from './scoring'
+import {time_estimates} from './time_estimates'
+import {feedback} from './feedback'
 
 time = -> (new Date()).getTime()
 
-export zxcvbn = (password, user_inputs = []) ->
+export default (password, user_inputs = []) ->
   start = time()
   # reset the user inputs matcher on a per-request basis to keep things stateless
   sanitized_inputs = []
