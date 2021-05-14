@@ -1,4 +1,4 @@
-import {adjacency_graphs} from './adjacency_graphs'
+import adjacency_graphs from './adjacency_graphs.js'
 
 # on qwerty, 'g' has degree 6, being adjacent to 'ftyhbv'. '\' has degree 1.
 # this calculates the average over all keys.

@@ -1,7 +1,7 @@
-import matching from './matching'
-import scoring from './scoring'
-import time_estimates from './time_estimates'
-import feedback from './feedback'
+import matching from './matching.js'
+import scoring from './scoring.js'
+import time_estimates from './time_estimates.js'
+import feedback from './feedback.js'
 
 time = -> (new Date()).getTime()
 
