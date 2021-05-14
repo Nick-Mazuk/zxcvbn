@@ -1,5 +1,5 @@
 {
-  "name": "zxcvbn",
+  "name": "zxcvbn-esm",
   "version": "4.4.2",
   "description": "realistic password strength estimation",
   "author": "Dan Wheeler",

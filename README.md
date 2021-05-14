@@ -7,6 +7,8 @@ _/\/\/\/\/\__/\/\__/\/\____/\/\/\/\______/\______/\/\/\/\____/\/\__/\/\_
 ________________________________________________________________________
 ```
 
+> This is an ES Modules version of zxcvbn by Dropbox. Usage is exactly the same. This repo is not being actively maintained to match zxcvbn updates, though that shouldn't be an issue since the main repo hasn't been updated in years.
+
 [![Build Status](https://travis-ci.org/dropbox/zxcvbn.svg?branch=master)](https://travis-ci.org/dropbox/zxcvbn)
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/dropbox-zxcvbn.svg)](https://saucelabs.com/u/dropbox-zxcvbn)
 
