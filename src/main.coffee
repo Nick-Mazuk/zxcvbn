@@ -1,11 +1,11 @@
-matching = require './matching'
-scoring = require './scoring'
-time_estimates = require './time_estimates'
-feedback = require './feedback'
+import matching from './matching'
+import scoring from './scoring'
+import time_estimates from './time_estimates'
+import feedback from './feedback'
 
 time = -> (new Date()).getTime()
 
-zxcvbn = (password, user_inputs = []) ->
+export zxcvbn = (password, user_inputs = []) ->
   start = time()
   # reset the user inputs matcher on a per-request basis to keep things stateless
   sanitized_inputs = []
@@ -21,5 +21,3 @@ zxcvbn = (password, user_inputs = []) ->
     result[prop] = val
   result.feedback = feedback.get_feedback result.score, result.sequence
   result
-
-module.exports = zxcvbn

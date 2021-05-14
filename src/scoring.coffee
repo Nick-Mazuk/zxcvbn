@@ -1,4 +1,4 @@
-adjacency_graphs = require('./adjacency_graphs')
+import adjacency_graphs from './adjacency_graphs'
 
 # on qwerty, 'g' has degree 6, being adjacent to 'ftyhbv'. '\' has degree 1.
 # this calculates the average over all keys.
@@ -14,7 +14,7 @@ MIN_GUESSES_BEFORE_GROWING_SEQUENCE = 10000
 MIN_SUBMATCH_GUESSES_SINGLE_CHAR = 10
 MIN_SUBMATCH_GUESSES_MULTI_CHAR = 50
 
-scoring =
+export scoring =
   nCk: (n, k) ->
     # http://blog.plover.com/math/choose.html
     return 0 if k > n
@@ -365,5 +365,3 @@ scoring =
     variations
 
   # utilities --------------------------------------------------------------------
-
-module.exports = scoring

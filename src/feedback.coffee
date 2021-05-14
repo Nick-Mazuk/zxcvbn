@@ -1,6 +1,6 @@
-scoring = require('./scoring')
+import scoring from './scoring'
 
-feedback =
+export feedback =
   default_feedback:
     warning: ''
     suggestions: [
@@ -117,4 +117,3 @@ feedback =
       suggestions: suggestions
     result
 
-module.exports = feedback

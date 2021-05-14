@@ -1,4 +1,4 @@
-time_estimates =
+export time_estimates =
   estimate_attack_times: (guesses) ->
     crack_times_seconds =
       online_throttling_100_per_hour: guesses / (100 / 3600)
@@ -65,5 +65,3 @@ time_estimates =
       [null, 'centuries']
     display_str += 's' if display_num? and display_num != 1
     display_str
-
-module.exports = time_estimates
