@@ -4,7 +4,7 @@
   "description": "realistic password strength estimation",
   "author": "Dan Wheeler",
   "license": "MIT",
-  "main": "lib/main.js",
+  "main": "index.js",
   "repository": "Nick-Mazuk/zxcvbn",
   "type": "module",
   "scripts": {
